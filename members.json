@@ -1,12 +1,12 @@
 [
-  {
-    "id": "user001",
-    "password": "passwordA",  // 検証用のため平文
+ {
+    "id": "user001", // <-- ダブルクォーテーションで囲まれている
+    "password": "passwordA",
     "name": "山田 太郎",
     "address": "東京都...",
     "imageUrl": "/images/toda.jpg",
     "extraInfo": "メンバーシップ・ゴールド"
-  },
+  }
   {
     "id": "user002",
     "password": "passwordB",

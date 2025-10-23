@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <title>簡易会員サイト（検証用）</title>
+</head>
+<body>
+
+    <h2>会員ログイン</h2>
+    <div id="login-form">
+        <label for="member-id">ID:</label>
+        <input type="text" id="member-id"><br><br>
+
+        <label for="member-pw">パスワード:</label>
+        <input type="password" id="member-pw"><br><br>
+
+        <button onclick="login()">ログイン</button>
+        <p id="message" style="color: red;"></p>
+    </div>
+
+    <hr>
+
+    <div id="member-info" style="display: none;">
+        <h3>ようこそ、<span id="info-name"></span>様</h3>
+        <p>住所: <span id="info-address"></span></p>
+        <p>詳細情報: <span id="info-extra"></span></p>
+        <img id="info-image" alt="会員画像" style="max-width: 200px;"><br>
+        <button onclick="logout()">ログアウト</button>
+    </div>
+
+    <script src="app.js"></script>
+</body>
+</html>

@@ -1,0 +1,18 @@
+[
+  {
+    "id": "user001",
+    "password": "passwordA",  // 検証用のため平文
+    "name": "山田 太郎",
+    "address": "東京都...",
+    "imageUrl": "/images/toda.jpg",
+    "extraInfo": "メンバーシップ・ゴールド"
+  },
+  {
+    "id": "user002",
+    "password": "passwordB",
+    "name": "佐藤 花子",
+    "address": "大阪府...",
+    "imageUrl": "/images/satoh.jpg",
+    "extraInfo": "メンバーシップ・シルバー"
+  }
+]

@@ -1,18 +1,18 @@
 [
- {
-    "id": "user001", // <-- ダブルクォーテーションで囲まれている
-    "password": "passwordA",
-    "name": "山田 太郎",
-    "address": "東京都...",
-    "imageUrl": "/images/toda.jpg",
-    "extraInfo": "メンバーシップ・ゴールド"
-  }
-  {
-    "id": "user002",
-    "password": "passwordB",
-    "name": "佐藤 花子",
-    "address": "大阪府...",
-    "imageUrl": "/images/satoh.jpg",
-    "extraInfo": "メンバーシップ・シルバー"
-  }
+ {
+    "id": "user001",
+    "password": "passwordA",
+    "name": "山田 太郎",
+    "address": "東京都...",
+    "imageUrl": "/images/toda.jpg",
+    "extraInfo": "メンバーシップ・ゴールド"
+  }, // <--- 修正箇所：カンマを追加
+  {
+    "id": "user002",
+    "password": "passwordB",
+    "name": "佐藤 花子",
+    "address": "大阪府...",
+    "imageUrl": "/images/satoh.jpg",
+    "extraInfo": "メンバーシップ・シルバー"
+  }
 ]

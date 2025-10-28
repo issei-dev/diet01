@@ -6,7 +6,7 @@
     "address": "東京都...",
     "imageUrl": "/images/toda.jpg",
     "extraInfo": "メンバーシップ・ゴールド"
-  },  // <--- オブジェクト間のカンマを忘れずに
+  },
   {
     "id": "user002",
     "password": "passwordB",
